@@ -30,7 +30,7 @@ DoRA is designed to decompose weights into magnitude and direction.
 The overall process consists of three main stages: **1. Decompose**, **2. Adapt**, and **3. Merge**.
 
 
-[The core part](https://github.com/gyuilLim/GSoC_2025/blob/10d33b0e53e81052e1371ffa5669cb4cae1e129f/PEFT/peft.py#L94) of this implementation directly follows the formulation in the DoRA paper (*Weight-Decomposed Low-Rank Adaptation*, arXiv:2402.09353).
+[The core part](https://github.com/gyuilLim/GSoC_2025/PEFT/peft.py#L95-L116) of this implementation directly follows the formulation in the DoRA paper (*Weight-Decomposed Low-Rank Adaptation*, arXiv:2402.09353).
 
 Each step in the code is aligned with the corresponding equations in the paper, and the comments explicitly indicate which equation is being implemented.
 
