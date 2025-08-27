@@ -36,6 +36,12 @@ Each step in the code is aligned with the corresponding equations in the paper, 
 
 ## Experimental Results
 
+### 0. Experimental Setup
+
+All experiments followed the default OTX training configurations.
+
+We used **DINOv2-small** as the backbone model.
+
 ### 1. Average Accuracy across 7 Datasets
 We compared four different fine-tuning strategies (**Full FT, Freeze Backbone, LoRA, DoRA**) on 7 datasets:
 `FGVC-Aircraft, Food-101, Stanford Cars, CUB-200, HAM10000, RESISC45, and Kitti Distance`.
