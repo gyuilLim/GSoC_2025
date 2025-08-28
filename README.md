@@ -52,23 +52,43 @@ The average accuracy results are summarized in the bar chart below:
   <img src="./figs/acc_compare.png" alt="Average Accuracy Chart" width="400"/>
 </p>
 
----
-
-### 2. GPU Memory Consumption
-We also measured *GPU memory usage*
-
-The GPU memory comparison is illustrated in the following chart:
+The dataset-wise accuracy results are summarized in the line chart below:
 
 <p align="center">
-  <img src="./figs/gpu_mem_compare.png" alt="GPU Memory Chart" width="400"/>
+  <img src="./figs/acc_per_datasets.png" alt="Average Accuracy Chart" width="400"/>
 </p>
 
+
+
+---
+
+### 2. GPU Memory, Trainable Parameters & Avg. Accuracy
+
+We measured *GPU memory usage, trainable parameters, and average accuracy.*
+
+The comparison is shwon in the following bubble plot:
+
+<p align="center">
+  <img src="./figs/param_acc_bubble.png" alt="GPU Memory Chart" width="400"/>
+</p>
+
+---
+
+### 3. Other Backbone
+
+We also experimented with another ViT-based backbone, **TinyViT-21M**. While PEFT methods generally led to performance drops compared to full fine-tuning, DoRA showed a relatively smaller decrease.
+
+The average accuracy results are summarized in the bar chart below:
+
+<p align="center">
+  <img src="./figs/tiny_vit_compare.png" alt="GPU Memory Chart" width="400"/>
+</p>
 
 ## Conclusion
 
 As mentioned earlier, the main goal of this project is to provide a broader range of fine-tuning options for users. These results can serve as a valuable reference for selecting the most suitable fine-tuning strategy depending on the user's goals - whether it's minimizing resource usage or maximizing performance.
 
-For more information, please refer to the post [here]().
+For more information, please refer to the post [here]() (coming soon).
 
 ## List of Pull Requests
 
