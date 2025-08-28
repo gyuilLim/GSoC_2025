@@ -58,10 +58,6 @@ The dataset-wise accuracy results are summarized in the line chart below:
   <img src="./figs/acc_per_datasets.png" alt="Average Accuracy Chart" width="400"/>
 </p>
 
-
-
----
-
 ### 2. GPU Memory, Trainable Parameters & Avg. Accuracy
 
 We measured *GPU memory usage, trainable parameters, and average accuracy.*
@@ -71,8 +67,6 @@ The comparison is shwon in the following bubble plot:
 <p align="center">
   <img src="./figs/param_acc_bubble.png" alt="GPU Memory Chart" width="400"/>
 </p>
-
----
 
 ### 3. Other Backbone
 
