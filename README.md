@@ -10,7 +10,7 @@ This repository contains *the final report for Google Summer of Code 2025.*
 
 ## Project Overview
 
-**Project Summary:** At the time I applied for the project, OTX offered only two training options: Full Fine-Tuning and LoRA. The goal of this project is to go beyond that by providing users with a wider range of training options. To achieve this, it is essential to explore more efficient fine-tuning methods, identify model architectures that support these methods, and provide experimental results that demonstrate their effectiveness.
+**Project Summary:** At the time I applied for the project, [OTX](https://github.com/open-edge-platform/training_extensions) offered only two training options: Full Fine-Tuning and LoRA. The goal of this project is to go beyond that by providing users with a wider range of training options. To achieve this, it is essential to explore more efficient fine-tuning methods, identify model architectures that support these methods, and provide experimental results that demonstrate their effectiveness.
 
 **Expected Outcomes:** The core of this project is not only to implement new features and models, but also to provide experimental results across various datasets so that OTX users can choose the most suitable training method for their needs. As mentioned earlier, PEFT methods often outperform Full Fine-Tuning (FFT), but the reduced number of trainable parameters inevitably leads to a trade-off with model performance (accuracy). Therefore, it is essential to conduct experiments on diverse types of datasets, measuring not only accuracy but also computational cost (such as GPU memory usage and training time) in order to clearly show users the degree of trade-off involved.
 
